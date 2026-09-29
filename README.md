@@ -1,4 +1,4 @@
-# Project Title Subject Grading Book
+# LMNOP Book of Grades
 ## Project Description
 In this program, We are gonna compute the final GWA or final grade of a specific subject that needs the user's inputs which are their grades and meetings per quarter in that specific subject.
 ## How to run the program
