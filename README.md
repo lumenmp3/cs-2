@@ -18,3 +18,47 @@ What appears first when you execute the program is the user's input for grades, 
 Student 1: Shiev Adrhian P. Nielo (input validation, user interface)
 Student 2: Marion Patrick Lumen (letter grade conversion and testing)
 Student 3: Jacques Anthony Magbanua (Grade Logic and average calculations)
+## Pseudocode:
+START
+
+DISPLAY "Welcome to LMNOP Book of Grades!"
+DISPLAY "(1) Gradebook"
+DISPLAY "(2) Results"
+DISPLAY "(3) Exit"
+
+INPUT choice
+
+WHILE choice is not 3
+
+    IF choice = 1 THEN
+
+        INPUT subject
+        INPUT grade
+        INPUT meetings_per_quarter
+
+        COMPUTE final_grade
+            final_grade = (meetings_per_quarter - 1) × grade
+
+        STORE subject and final_grade
+
+        DISPLAY "Final Grade for ", subject, ": ", final_grade
+
+    ELSE IF choice = 2 THEN
+
+        DISPLAY stored grades and results
+
+    ELSE
+        DISPLAY "Invalid choice. Please try again."
+
+    END IF
+
+    DISPLAY "(1) Gradebook"
+    DISPLAY "(2) Results"
+    DISPLAY "(3) Exit"
+    INPUT choice
+
+END WHILE
+
+DISPLAY "Thank you for using LMNOP Book of Grades!"
+
+END
