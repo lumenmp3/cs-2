@@ -6,3 +6,6 @@
 - added menu features that let the user choose where to go like the gradebook where he/she inputs values for computing, the results where it displays the gwa and final grades of subjects for specific students
 ## V1.1.0 - September 9, 2026
 - Added input features for section and grade level
+## V1.1.1 - November 12, 2026
+- Improved the proposal: Project name, problem statement, objectives, and features
+- Fixed the logic in the flowchart
